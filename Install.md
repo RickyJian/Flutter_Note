@@ -8,5 +8,9 @@
 
 將下載後的檔案解縮在任何路徑皆可，但不建議放在`C:\Program Files`中
 
+## 設置環境變數
 
+![環境變數](/images/environment_variable.png)
+
+將路徑指向解壓縮出來得檔案路徑的 `bin` 資料夾
 
