@@ -7,3 +7,7 @@ Flutter 筆記
 IDE：VSCode
 
 OS：Windows 10
+
+## Install
+
+環境建置
