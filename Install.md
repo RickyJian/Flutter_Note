@@ -24,4 +24,4 @@ $ flutter doctor
 
 檢查環境建置是否有遺漏未建置或建議建置的品項
 
-![FlutterDocker](/images/flutter_docker.png)
+![FlutterDocker](/images/flutter_doctor.png)
