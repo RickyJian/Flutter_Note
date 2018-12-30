@@ -1,35 +1,11 @@
-# Flutter 
+# Flutter 筆記
 
-Flutter 筆記
+此筆記是關於 Flutter 的學習及實作
 
-[官網](https://flutter.io/)
+## Note
 
-IDE：VSCode
+筆記
 
-OS：Windows 10
+## Example
 
-## Install
-
-環境建置
-
-## Android Emulator
-
-新增 Android 模擬器
-
-## 使用者介面(UI)
-
-### Widget
-
-APP 使用者介面
-
-[參照](Widget.md)
-
-### StatelessWidget
-
-靜態 Widget
-
-[參照](StatelessWidget.md)
-
-### Statefulwidget
-
-動態 Widget
+範例
