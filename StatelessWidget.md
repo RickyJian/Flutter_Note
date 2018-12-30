@@ -32,7 +32,7 @@
 
 ```
 
-> EdgeInsets：微調
+> EdgeInsets：微調 <br>
 > BoxDecoration：可用來當做陰影外框或背景
 
 ## Text
