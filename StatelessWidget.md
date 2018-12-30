@@ -33,8 +33,7 @@
 ```
 
 > EdgeInsets：微調
-
-### BoBoxDecoration
+> BoxDecoration：可用來當做陰影外框或背景
 
 ## Text
 
@@ -63,14 +62,85 @@
 
 ## Row & Column
 
-建立一個矩形容器，可將元件放置其中
+列(Row)行(Column)元件佈局
 
-### BoxDecoration
+```Dart
 
-## StatelessWidget
+    Widget rowDemo = Container(
+      child: Row(
+        children: <Widget>[
+          Container(
+            child: Text(
+              'First Row',
+              textDirection: TextDirection.ltr,
+            ),
+          ),
+          Container(
+            child: Text(
+              'Second Row',
+              textDirection: TextDirection.ltr,
+            ),
+          ),
+        ],
+      ),
+    );
 
-無狀態
+    Widget columnDemo = Container(
+      child: Column(
+        children: <Widget>[
+          Container(
+            child: Text(
+              'First Column',
+              textDirection: TextDirection.ltr,
+            ),
+          ),
+          Container(
+            child: Text(
+              'Second Column',
+              textDirection: TextDirection.ltr,
+            ),
+          ),
+        ],
+      ),
+    );
 
-## StatefulWidget
+```
 
-有狀態
+### Expanded
+
+平均將元件分配到視窗上
+
+```Dart
+
+    Widget expandedDemo = Container(
+      child: Row(
+        children: <Widget>[
+          Expanded(
+            child: Container(
+              child: Text(
+                'First Row',
+                textDirection: TextDirection.ltr,
+              ),
+            ),
+          ),
+          Expanded(
+            child: Container(
+              child: Text(
+                'Second Row',
+                textDirection: TextDirection.ltr,
+              ),
+            ),
+          ),
+          Expanded(
+            child: Container(
+              child: Text(
+                'Third Row',
+                textDirection: TextDirection.ltr,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+
+```
