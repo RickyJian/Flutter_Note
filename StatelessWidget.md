@@ -9,6 +9,9 @@
 ```Dart
 
     Widget containerDemo = Container(
+      decoration: BoxDecoration(
+        color: Colors.black26,
+      ),
       child: Column(
         children: <Widget>[
           Container(
@@ -18,8 +21,8 @@
               margin: const EdgeInsets.all(5.0),
               color: const Color(0xFFFFECB3),
               child: Text(
-                'Padding color is blue. Margin color is yellow.',
-                textDirection: TextDirection.rtl,
+                'Padding is blue. Margin is yellow.BoxDecoration is grey.',
+                textDirection: TextDirection.ltr,
               ),
             ),
           ),
