@@ -81,6 +81,22 @@ void main (){
   }else{
     print('no < 100');
   }
+
+  String name = 'Ricky';
+  
+  switch(name){
+    case 'Jack':
+      print(name);
+      break;
+    case 'Ricky':
+      print(name);
+      break;
+    case 'John':
+      print(name);
+      break;
+    default:
+      print('No Name');
+  }
 }
 
 ```
