@@ -348,6 +348,56 @@ class MyApp extends StatelessWidget {
 
 ```
 
+## SizedBox & Card
+
+為了配合 Card 的使用所以我們必須使用 SizedBox 來限定 Card 的大小。
+Card 屬性 child 裡可放置各種 Widget
+
+```Dart
+
+    Widget card = SizedBox(
+      height: 250.0,
+      width: 300.0,
+      child: Card(
+        child: Column(
+          children: <Widget>[
+            ListTile(
+              title: Text('ListTile 1',
+                  style:
+                      TextStyle(fontWeight: FontWeight.w500, fontSize: 20.0)),
+              subtitle: Text('1'),
+              leading: Icon(
+                Icons.call,
+                color: Colors.blue[500],
+              ),
+            ),
+            ListTile(
+              title: Text('ListTile 2',
+                  style:
+                      TextStyle(fontWeight: FontWeight.w500, fontSize: 20.0)),
+              subtitle: Text('2'),
+              leading: Icon(
+                Icons.call,
+                color: Colors.blue[500],
+              ),
+            ),
+            ListTile(
+              title: Text('ListTile 3',
+                  style:
+                      TextStyle(fontWeight: FontWeight.w500, fontSize: 20.0)),
+              subtitle: Text('3'),
+              leading: Icon(
+                Icons.call,
+                color: Colors.blue[500],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+
+```
+
 ----
 
 ## 範例
@@ -359,3 +409,5 @@ class MyApp extends StatelessWidget {
 [ListView & ListTile](Example/list/README.md)
 
 [Stack](Example/stack/README.md)
+
+[SizedBox & Card](Example/sizedbox/README.md)
