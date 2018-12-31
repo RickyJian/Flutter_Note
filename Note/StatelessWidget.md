@@ -145,6 +145,39 @@
 
 ```
 
+## Stack
+
+可讓 Widget 相互堆疊
+
+```Dart
+
+    Widget stackDemo = Stack(
+      alignment: const Alignment(0.6, 0.6),
+      children: <Widget>[
+        CircleAvatar(
+          backgroundColor: Colors.blue[700],
+          radius: 100,
+        ),
+        Container(
+          decoration: BoxDecoration(
+            color: Colors.black12,
+          ),
+          child: Text(
+            'Text is on the circle',
+            style: TextStyle(
+              fontSize: 20.0,
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+            ),
+          ),
+        )
+      ],
+    );
+
+```
+
+> alignment：堆疊物件放置位置，會與後 Widget 會放在 前 Widget 的相對位置上(中心點：(0,0))
+
 ## GridView
 
 格子排列元件，當格子數量超過螢幕大小可捲動
@@ -319,6 +352,10 @@ class MyApp extends StatelessWidget {
 
 ## 範例
 
-[基本StatelessWidgt範例](Example/statelesswidget/README.md)
+[基本StatelessWidgt](Example/statelesswidget/README.md)
 
-[GridView範例](Example/gridview/README.md)
+[GridView](Example/gridview/README.md)
+
+[ListView & ListTile](Example/list/README.md)
+
+[Stack](Example/stack/README.md)
