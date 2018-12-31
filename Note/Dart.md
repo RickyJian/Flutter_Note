@@ -1,5 +1,9 @@
 # Dart
 
+* 物件導向程式語言
+* 使用在 前端 後端 Mobile 開發上
+* 若有 JAVA 開發經驗容易上手
+
 [線上編譯器](https://dartpad.dartlang.org/)
 
 ## Hello World
