@@ -65,3 +65,51 @@ int constFunc(){
 
 
 ```
+
+## 流程控制
+
+### 判斷式
+
+```Dart
+
+void main (){
+  int no = 100 ;
+  if (no > 101){
+    print('no > 101');
+  }else if (no == 100){
+    print('no = 100');
+  }else{
+    print('no < 100');
+  }
+}
+
+```
+
+### 迴圈
+
+```Dart
+
+for(int i = 0 ; i < 10 ; i++){
+    print(i);
+  }
+  
+  var noArr = [1,2,3,4,5,6,7];
+  for (var no in noArr){
+    print(no);
+  }
+  
+  int no = 0;
+  
+  while (no < 5){
+    print(no);
+    no ++;
+  }
+  
+  no = 0;
+  
+  do{
+    print(no);
+    no ++;
+  }while(no < 5);
+
+```
