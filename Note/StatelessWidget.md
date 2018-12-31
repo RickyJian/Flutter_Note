@@ -198,5 +198,5 @@ class MyApp extends StatelessWidget {
 
 ## 範例
 
-[基本StatelessWidgt範例](example/statelesswidget/README.md)
-[GridView範例](example/statelesswidget/README.md)
+[基本StatelessWidgt範例](Example/statelesswidget/README.md)
+[GridView範例](Example/gridview/README.md)
