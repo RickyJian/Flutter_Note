@@ -105,7 +105,8 @@ void main (){
 
 ```Dart
 
-for(int i = 0 ; i < 10 ; i++){
+void main (){
+  for(int i = 0 ; i < 10 ; i++){
     print(i);
   }
   
@@ -127,5 +128,39 @@ for(int i = 0 ; i < 10 ; i++){
     print(no);
     no ++;
   }while(no < 5);
+}
+
+```
+
+## 錯誤處裡
+
+* try catch finally
+* throw
+
+```Dart
+
+void main (){
+  try {
+    formatFunc();
+  } on FormatException catch(fe){
+    print (fe);
+    exceptionFunc();
+  }catch(e){
+    print(e);
+  }finally{
+    print('Done!');
+  }
+
+}
+
+void formatFunc(){
+  throw FormatException('格式錯誤。');
+}
+
+
+void exceptionFunc(){
+  throw Exception('所有錯誤。');
+}
+
 
 ```
