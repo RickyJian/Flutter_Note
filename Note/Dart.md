@@ -138,8 +138,9 @@ void main (){
 
 ## 錯誤處裡
 
-* try catch finally
-* throw
+try catch finally:用來捕捉無法預期的錯誤。將有可能發生的錯誤放在 try 中幫有錯誤發生會進 catch，而 finally 則是不管有無錯誤發生都會執行的地方。
+
+throw:拋出錯誤。
 
 ```Dart
 
@@ -147,9 +148,11 @@ void main (){
   try {
     formatFunc();
   } on FormatException catch(fe){
+    // 指定要處理的錯誤
     print (fe);
     exceptionFunc();
   }catch(e){
+    // 當所有錯誤發生都會進這個方法
     print(e);
   }finally{
     print('Done!');
@@ -165,6 +168,5 @@ void formatFunc(){
 void exceptionFunc(){
   throw Exception('所有錯誤。');
 }
-
 
 ```
