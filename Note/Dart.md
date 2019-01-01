@@ -18,7 +18,7 @@
 
 全小寫配底線(lowercase_with_underscores)
 
-### 變數 & 方法 
+### 變數 & 方法
 
 駝峰(lowerCamelCase )
 
@@ -49,7 +49,7 @@ var number = 1;
 
 ```Dart
 
-String name = 'Ricky'
+String name = 'Ricky';
 
 ```
 
