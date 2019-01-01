@@ -16,7 +16,7 @@ void main (){
 
 ```
 
-## 變數宣告
+## 變數宣告(Variables & Declation)
 
 ### 動態變數宣告
 
@@ -70,7 +70,7 @@ int constFunc(){
 
 ```
 
-## 流程控制
+## 流程控制(Control Flow Statement)
 
 ### 判斷式
 
@@ -105,7 +105,7 @@ void main (){
 
 ```
 
-### 迴圈
+### 迴圈(Loop)
 
 ```Dart
 
@@ -136,7 +136,7 @@ void main (){
 
 ```
 
-## 錯誤處裡
+## 錯誤處裡(Exception)
 
 try catch finally:用來捕捉無法預期的錯誤。將有可能發生的錯誤放在 try 中幫有錯誤發生會進 catch，而 finally 則是不管有無錯誤發生都會執行的地方。
 
@@ -171,7 +171,7 @@ void exceptionFunc(){
 
 ```
 
-## 函式
+## 函式(Function)
 
 ```Dart
 
@@ -194,7 +194,7 @@ int paraFunc(int para){
 
 ```
 
-## class
+## 類別(Class)
 
 ```Dart
 
