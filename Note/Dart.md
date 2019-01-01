@@ -193,3 +193,37 @@ int paraFunc(int para){
 }
 
 ```
+
+## class
+
+```Dart
+
+void main() {
+// 新建物件，在 Dart2 後 new 為選用字
+  var person = Person('Ricky', 'Man');
+// 取用屬性
+  print(person.name);
+// 設定屬性
+  person.name = 'John';
+  print(person.name);
+// 使用方法
+  person.printPerson();
+}
+
+class Person {
+//   類別屬性
+  String name;
+  String gender;
+  // 建構式，在 Dart 中只能有一個建構式
+  Person(String name, String gender) {
+    this.name = name;
+    this.gender = gender;
+  }
+// 方法
+  void printPerson() {
+    print('name:' + this.name + " gender:" + this.gender);
+  }
+}
+
+
+```
