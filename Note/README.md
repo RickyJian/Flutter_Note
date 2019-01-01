@@ -20,6 +20,8 @@ OS：Windows 10
 
 基本 Dart 程式語言
 
+* 命名規則
+* Hello World
 * 變數宣告
 * 流程控制
   * 判斷式

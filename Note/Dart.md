@@ -6,6 +6,22 @@
 
 [線上編譯器](https://dartpad.dartlang.org/)
 
+## 命名規則
+
+[原文網址](https://www.dartlang.org/guides/language/effective-dart/style)
+
+### 識別字
+
+大駝峰(UpperCamelCase)
+
+### 套件
+
+全小寫配底線(lowercase_with_underscores)
+
+### 變數 & 方法 
+
+駝峰(lowerCamelCase )
+
 ## Hello World
 
 ```dart
