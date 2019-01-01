@@ -170,3 +170,26 @@ void exceptionFunc(){
 }
 
 ```
+
+## 函式
+
+```Dart
+
+// 無回傳值
+
+void noneValueReturn(){
+  print('noneValueReturn');
+}
+
+// 有回傳值
+int noneValueReturn(){
+  return 1;
+}
+
+// 帶參數
+
+int paraFunc(int para){
+  print(para);
+}
+
+```
