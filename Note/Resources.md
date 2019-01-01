@@ -63,7 +63,7 @@ dependencies:
     # App icon
     cupertino_icons: ^0.1.2
 
-# 開發環性依賴套件
+# 開發環境依賴套件
 dev_dependencies:
   flutter_test:
     sdk: flutter
