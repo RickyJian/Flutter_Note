@@ -2,11 +2,11 @@
 
 將照片或檔案部署在專案中
 
+pubspec.yaml 為 Dart、Flutter 部署檔案
+
 [原文](https://www.dartlang.org/tools/pub/pubspec)
 
-## pubspec.yaml
-
-### 基本
+## Dart 基本部署
 
 部署用檔案，描述專案細項
 
@@ -37,9 +37,7 @@ dev_dependencies:
 
 ```
 
-### Flutter
-
-Flutter 部署細項
+### Flutter 部署
 
 ```yaml
 
