@@ -4,10 +4,6 @@ Flutter 筆記
 
 [官網](https://flutter.io/)
 
-IDE：VSCode
-
-OS：Windows 10
-
 ## Install
 
 環境建置
@@ -49,3 +45,7 @@ APP 使用者介面
 ### Statefulwidget
 
 動態 Widget
+
+## 資源部署
+
+部署照片或檔案
